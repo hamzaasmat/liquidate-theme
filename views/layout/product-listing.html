@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../styles/main/main.css">
+    <link rel="stylesheet" href="../../icons/css/all.min.css">
+    <link rel="stylesheet" href="../../icons/css/fontawesome.min.css">
+    <script>
+        function openSidebar() {
+            let sideBar = document.getElementById('sidebar');
+            sideBar.classList.toggle('sidebar-visible')
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="app-header">
+        <span class="d-block d-sm-none">
+            <button class="app-header__menu-button" onclick="openSidebar()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+        </span>
+        <span>
+            <img src="../../assets/images/logo.svg" class="app-header__logo" alt="">
+        </span>
+
+        <span class="me-auto d-none d-sm-block"></span>
+        <span class="d-none d-sm-block">
+            <button class="btn btn-info">
+                <i class="fa fa-upload me-2"></i> Post an item for sale
+            </button>
+        </span>
+        <span>
+            <div class="app-header__user-profile"></div>
+        </span>
+    </div>
+    <div class="app-bottom-nav">
+        <span>
+            <i class="fa fa-home active"></i>
+        </span>
+        <span>
+            <i class="fa fa-search"></i>
+        </span>
+        <span>
+            <i class="fa fa-bars" onclick="openSidebar()"></i>
+        </span>
+    </div>
+    <div class="app-sidebar" id="sidebar">
+        <div class="app-sidebar__body">
+            <div class="app-sidebar__body--item active">
+                Items of interest <i class="fa fa-chevron-up"></i>
+            </div>
+            <div class="app-sidebar__body--item">
+                Open Offer Windows <i class="fa fa-chevron-down"></i>
+            </div>
+            <!-- add (show or hide) class to show and hide the dropdown -->
+            <!-- ex: <div class="app-sidebar__body-block-nested show"> -->
+            <div class="app-sidebar__body-block-nested">
+                <div class="nested-item">
+                    Winning Offers
+                </div>
+                <div class="nested-item">
+                    Losing Offers
+                </div>
+            </div>
+            <div class="app-sidebar__body--item">
+                Closed Offer Windows <i class="fa fa-chevron-down"></i>
+            </div>
+            <div class="app-sidebar__body-block-nested">
+                <div class="nested-item">
+                    Winning Offers
+                </div>
+                <div class="nested-item">
+                    Losing Offers
+                </div>
+            </div>
+        </div>
+        <!-- <div class="space"></div> -->
+        <div class="app-sidebar__footer">
+            <div class="d-flex justify-content-between w-100 ps-4 pe-4 fw-semibold">
+                <span class="text-primary">Terms</span>
+                <span class="text-primary">Privacy</span>
+                <span class="text-primary">Help</span>
+            </div>
+            <p class="text-center fs-medium mt-2 fw-semibold">© Copyright 2022 By Liquid8te, Inc.</p>
+        </div>
+
+    </div>
+    <div class="app-content">
+        <div class="app-sub-header">
+            <div class="app-sub-header__item active">
+                All
+            </div>
+            <div class="app-sub-header__item">
+                Cars
+            </div>
+            <div class="app-sub-header__item">
+                Trucks
+            </div>
+            <div class="app-sub-header__item">
+                Commercial Cars
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="card p-1 position-relative mt-3">
+                <img src="../../assets/images/card-img.png" width="100" class="position-absolute card-img" alt="">
+                <div class="row">
+                    <div class="col-md-3 col-5">
+                        <img src="../../assets/images/image 24.png" class="w-100 h-100" alt="">
+                    </div>
+                    <div class="col-md-9 col-7 ps-0">
+                        <div class="d-flex align-items-start flex-column h-100 p-2">
+                            <div class="w-100">
+                                <h5 class="card-title fw-semibold fs-small-mobile fw-1-m">
+                                    2023 Ford Raptor 4x4 Supercharged
+                                </h5>
+                            </div>
+                            <div class="w-100">
+                                <div class="d-none d-sm-block fs-medium">
+                                    <div class="row mt-4 ">
+                                        <div class="col-md-3">
+                                            <label for="" class="fw-semibold">Year:</label> 2023 <br>
+                                            <label for="" class="fw-semibold">Model:</label> Raptor <br>
+                                            <label for="" class="fw-semibold">Title:</label> Clean <br>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="" class="fw-semibold">Engin:</label> V8 <br>
+                                            <label for="" class="fw-semibold">Manufacturer:</label> Ford <br>
+                                            <label for="" class="fw-semibold">Mileage:</label> 4315 Miles <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-auto w-100 mt-desktop">
+                                <div class="d-flex align-items-end">
+                                    <div class="d-flex align-items-start mobile-flex-column fs-small-mobile">
+                                        <div class="me-4">
+                                            <small class="d-block fs-5-m">Highest Offer</small>
+                                            <span class="fs-3 fs-2-m fw-bold fw-1-m">$36,000</span>
+                                        </div>
+                                        <div class="mb-1 mt-1">
+                                            <span class="d-block fw-semibold fw-2-m"> 7 active offers</span>
+                                            12h 23m offer window
+                                        </div>
+                                    </div>
+                                    <div class="ms-auto">
+                                        <span class="d-none d-sm-block">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Quick offer"
+                                                    aria-label="Recipient's username">
+                                                <button class="btn btn-primary" type="button">Offer</button>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

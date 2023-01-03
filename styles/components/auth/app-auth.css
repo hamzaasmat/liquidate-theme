@@ -1,0 +1,67 @@
+.app-generic-wrapper {
+  background-color: var(--primary);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.app-generic-wrapper__logo {
+  margin-bottom: 2em;
+}
+.app-generic-wrapper__aside-left {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  background: url(../../../assets/images/big-isotype.svg), var(--secondary);
+  background-size: cover;
+  background-position: center center;
+}
+@media (max-width: 599px) {
+  .app-generic-wrapper__aside-left {
+    display: none;
+  }
+}
+.app-generic-wrapper__aside-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 300px;
+}
+@media (max-width: 599px) {
+  .app-generic-wrapper__aside-right {
+    margin: unset;
+    justify-content: center;
+    display: block;
+  }
+}
+.app-generic-wrapper__aside-right--header {
+  background: var(--primary);
+  padding: 2em;
+  width: 100%;
+}
+.app-generic-wrapper__aside-right--body {
+  background: var(--bg);
+  padding: 2em;
+  width: 100%;
+}
+.app-generic-wrapper__form {
+  width: 450px;
+  margin-left: 4em;
+}
+@media (max-width: 599px) {
+  .app-generic-wrapper__form {
+    margin-left: unset;
+    margin: 2em;
+    width: auto;
+  }
+}
+.app-generic-wrapper__form--title {
+  color: var(--white);
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}/*# sourceMappingURL=app-auth.css.map */

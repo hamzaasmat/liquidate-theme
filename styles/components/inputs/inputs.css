@@ -1,0 +1,29 @@
+.control {
+  position: relative;
+}
+.control label {
+  margin-bottom: 0.5em;
+  font-weight: 500;
+}
+.control .form-control {
+  padding: 0.5em 0.5em;
+  border-radius: 4px !important;
+}
+.control .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1em;
+}
+.control ::-moz-placeholder {
+  color: #999999;
+}
+.control :-ms-input-placeholder {
+  color: #999999;
+}
+.control ::placeholder {
+  color: #999999;
+}
+.control.center {
+  text-align: center !important;
+}/*# sourceMappingURL=inputs.css.map */

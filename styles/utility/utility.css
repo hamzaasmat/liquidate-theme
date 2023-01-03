@@ -1,0 +1,167 @@
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 150px;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+.fs-small {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+@media (max-width: 599px) {
+  .fs-small-mobile {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .fs-5-m {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .fs-4-m {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .fs-3-m {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .fs-2-m {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .fs-1-m {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .fw-5-m {
+    font-weight: 300 !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .fw-4-m {
+    font-weight: 400 !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .fw-3-m {
+    font-weight: 500 !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .fw-2-m {
+    font-weight: 600 !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .fw-1-m {
+    font-weight: 700 !important;
+  }
+}
+
+.fs-medium {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.text-black-60 {
+  color: #999999;
+}
+
+.input-padding {
+  padding: 1em 2em !important;
+}
+
+@media (max-width: 599px) {
+  .mt-mobile {
+    margin-top: 3em;
+  }
+}
+
+@media (min-width: 900px) {
+  .mt-desktop {
+    margin-top: 2em !important;
+  }
+}
+
+.form-space {
+  margin-top: 5em !important;
+}
+
+@media (max-width: 599px) {
+  .logo-mobile-space {
+    margin: 3em auto;
+  }
+}
+
+.input-padding-small {
+  padding: 0.8em 2em !important;
+}
+
+.dash {
+  width: 100%;
+  height: 1px;
+  margin: 1em 0;
+  background: var(--bg);
+}
+
+@media (max-width: 599px) {
+  .mobile-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 599px) {
+  .mobile-flex-reverce {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (max-width: 599px) {
+  .mobile-flex-column {
+    flex-direction: column-reverse;
+  }
+}
+
+.badge-active {
+  background: var(--primary);
+}
+
+.border {
+  border: 1px solid;
+}
+
+.card-img {
+  width: 100px;
+  top: 14px;
+  right: 10px;
+}
+@media (max-width: 599px) {
+  .card-img {
+    width: 40px;
+    bottom: 10px;
+    top: unset;
+  }
+}/*# sourceMappingURL=utility.css.map */

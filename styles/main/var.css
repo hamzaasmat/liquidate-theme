@@ -1,0 +1,15 @@
+/*
+    CSS Variables
+*/
+
+:root {
+    --primary: #2a49f8;
+    --secondary: #142155;
+    --white: #ffffff;
+    --black: #000000;
+    --info: #00ddfc;
+    --warning: #f37022;
+    --bg: #ededed;
+    --primary-dark: #0104E0;
+    --black-3: #333333;
+}
